@@ -1,0 +1,77 @@
+
+/* Mobile */
+
+.Square-0 {
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    margin: 0px -1px -1px 0px;
+}
+
+.Square-8 {
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    margin: 0px -1px -1px 0px;
+}
+
+.Square-12 {
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    margin: 0px -1px -1px 0px;
+}
+
+
+.Square-16 {
+    border: 1px solid black;
+    height: 23px;
+    width: 23px;
+    margin: 0px -1px -1px 0px;
+}
+
+.Square-32 {
+    border: 1px solid black;
+    height: 13px;
+    width: 13px;
+    margin: 0px -1px -1px 0px;
+}
+
+
+/* Tablet and PC */
+@media(min-width: 768px){
+    .Square-0 {
+        border: 1px solid black;
+        height: 45px;
+        width: 45px;
+        margin: 0px -1px -1px 0px;
+    }
+    
+    .Square-8 {
+        border: 1px solid black;
+        height: 65px;
+        width: 65px;
+        margin: 0px -1px -1px 0px;
+    }
+    
+    .Square-12 {
+        border: 1px solid black;
+        height: 53px;
+        width: 53px;
+        margin: 0px -1px -1px 0px;
+    }
+    
+    .Square-16 {
+        border: 1px solid black;
+        height: 44px;
+        width: 44px;
+        margin: 0px -1px -1px 0px;
+    }
+    
+    .Square-32 {
+        border: 1px solid black;
+        height: 23px;
+        width: 23px;
+        margin: 0px -1px -1px 0px;
+    }
+}

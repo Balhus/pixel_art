@@ -1,0 +1,137 @@
+/* Mobile */
+.mainTitle {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.board-8 {
+  display: flex;
+  width: 20em;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.board-12 {
+  display: flex;
+  width: 23em;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.board-16 {
+  display: flex;
+  width: 23em;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.board-32 {
+  display: flex;
+  width: 24em;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.ctn-sizeButtons {
+  display: flex;
+  padding-bottom: 1em;
+  padding-top: 1.5em;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sizeButtons {
+  background-color: #f5ebe0;
+  width: 4em;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid #e3d5ca;
+  margin: 3px;
+
+}
+
+.ctn-colorPicker {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.ctn-exportButton {
+  display: flex;
+  justify-content: center;
+}
+
+.exportButton {
+  background-color: #d5bdaf;
+  width: 8em;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #e3d5ca;
+  color: #fff;
+  margin: 5px;
+  font-weight: 700;
+  padding: 0.5em;
+}
+
+@media(min-width:768px) {
+  .board-8 {
+    display: flex;
+    width: 35em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .board-12 {
+    display: flex;
+    width: 40em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .board-16 {
+    display: flex;
+    width: 45em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .board-32 {
+    display: flex;
+    width: 45em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .sizeButtons {
+    background-color: #f5ebe0;
+    width: 5em;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #e3d5ca;
+    margin: 3px;
+  
+  }
+
+  .ctn-colorPicker {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+  
+  .cursor-pointer{
+    cursor: pointer;
+  }
+}
