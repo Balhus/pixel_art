@@ -21,8 +21,6 @@ function App() {
   const [currentPosition, setCurrentPosition] = useState(0)
   const [hasBeenClicked, setHasBeenClicked] = useState(false)
 
-
-
   //Every time the position changes or the hasBeenClicked changes, it updates the array of Squares and prints it modified
   useEffect(() => {
     const updatedBoard = []
@@ -83,8 +81,12 @@ function App() {
       <div className="ctn-colorPicker">
         {colorPicker}
       </div>
-      <div className={`board-${boardSize}`} style={{ marginBottom: '10px' }} ref={componentRef}>
+      <div ref={componentRef}>
+        <div className={`board-${boardSize}`} style={{ marginBottom: '10px' }}>
         {board}
+
+        </div>
+        <p style={{display: 'hidden'}}> </p> {/* The board appeared without the bottom border for some reason when exported to image, this is to prevent it */}
       </div>
 
       <div className="ctn-exportButton">
