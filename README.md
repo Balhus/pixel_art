@@ -1,6 +1,6 @@
 # Pixel Art
 
-Is a simple page to create your Pixel Art. With the given colors, you can paint the board and let your the creativity flow.
+Is a simple page to create your Pixel Art. With the given colors, you can paint the board and let your creativity flow.
 
 You can choose the Board size and start painting by clicking on the color you want to paint with and then pressing a cell on the board.
 
